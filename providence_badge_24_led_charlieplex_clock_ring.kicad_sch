@@ -1,0 +1,3141 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "f422bbf0-bbf8-4caf-b6e4-b9124b0ef284")
+	(paper "A2")
+	(title_block
+		(title "Providence Badge - 24 LED Charlieplex Clock Ring")
+		(date "2026-04-05")
+		(comment 1 "Generated with SKiDL LED Matrix Generator")
+	)
+	(lib_symbols
+		(symbol "/home/critbit/Projects/hardware/kicad-libs/kicad-main/kicad-symbols/Device.kicad_symdir/LED:LED"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(rectangle
+		(start -12.7 -12.7)
+		(end 288.29 54.61)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "41e6b341-c1b4-4a75-9ed3-f63160338969")
+	)
+	(wire
+		(pts
+			(xy -50.8 81.28) (xy -48.26 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c26dca3-7654-48b3-9885-f42c61658347")
+	)
+	(wire
+		(pts
+			(xy -50.8 66.04) (xy -48.26 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e0ceb80-e285-4eaa-a33d-24c21a9abefe")
+	)
+	(wire
+		(pts
+			(xy -50.8 86.36) (xy -48.26 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66f68d66-1011-4a6f-8c4d-73ab2310fedb")
+	)
+	(wire
+		(pts
+			(xy -50.8 71.12) (xy -48.26 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "711189c3-ed98-4992-911f-b6c3162dc6b3")
+	)
+	(wire
+		(pts
+			(xy -50.8 60.96) (xy -48.26 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd8d479c-758b-4245-8868-1cae45a76b25")
+	)
+	(wire
+		(pts
+			(xy -50.8 55.88) (xy -48.26 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea86e043-a702-461f-a9a0-bdde7143074b")
+	)
+	(wire
+		(pts
+			(xy -50.8 50.8) (xy -48.26 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb2c41cf-ffe6-467b-bbe8-d1f90be08359")
+	)
+	(wire
+		(pts
+			(xy -50.8 76.2) (xy -48.26 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eba4837f-aa77-4e2d-8aec-02a86c64db65")
+	)
+	(label "PLED3"
+		(at 74.93 27.94 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "01578538-82b7-4655-a665-4806d0aeefd4")
+	)
+	(label "PLED1"
+		(at 35.56 41.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "07ea2430-8a98-4163-ba86-3d0dd1a49589")
+	)
+	(label "WLED3"
+		(at 200.66 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "093634ac-2775-4377-b2c2-9a639e9fe6ab")
+	)
+	(label "WLED0"
+		(at 240.03 0 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0a498d97-3364-4381-a73b-536eab3db5d4")
+	)
+	(label "WLED3"
+		(at 279.4 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0b1c0a11-8179-4d7f-a0de-9a9a2f140b49")
+	)
+	(label "WLED1"
+		(at 232.41 41.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "18621b17-fada-40db-9f86-60089a2eaf82")
+	)
+	(label "WLED3"
+		(at 240.03 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "24ead5d9-1dd7-4eaf-932d-bf5e0b3a00af")
+	)
+	(label "PLED3"
+		(at 82.55 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "27d3b957-3bb2-4ab1-b11a-554d14b1cdec")
+	)
+	(label "WLED2"
+		(at 271.78 41.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2f05d5a5-b8b0-4539-a4b6-841977ea36b6")
+	)
+	(label "WLED2"
+		(at 279.4 27.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "300c9af7-2052-4758-8929-862bcd348d14")
+	)
+	(label "WLED3"
+		(at 271.78 27.94 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3584afd4-21ef-438f-b539-b0c9a1c7f3dc")
+	)
+	(label "WLED2"
+		(at 232.41 0 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "36d9fc74-adaa-4ee2-bde7-021a507e0e6d")
+	)
+	(label "PLED3"
+		(at 3.81 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "38d090f8-9c20-408f-88ee-16217bd561bf")
+	)
+	(label "WLED1"
+		(at 232.41 27.94 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "39e2a5af-d486-45bf-9f93-fe8347ee11be")
+	)
+	(label "PLED1"
+		(at 43.18 13.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "39e6276f-7f3e-4f6b-887e-fa9147a9e0ff")
+	)
+	(label "WLED2"
+		(at 240.03 27.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3fecf3f9-31a3-4ae7-926d-18b66a9560a5")
+	)
+	(label "WLED0"
+		(at 193.04 13.97 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4750c925-dd65-4840-bed9-0dc2d4303fce")
+	)
+	(label "PLED3"
+		(at 74.93 13.97 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4cda9cc8-9ecc-4311-a763-94909f113115")
+	)
+	(label "PLED2"
+		(at 35.56 13.97 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4ef994e4-be32-40c7-9209-dd312fbab47b")
+	)
+	(label "PLED3"
+		(at 74.93 0 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4f3c3e14-ee79-4f39-a37a-051f2b9d2aca")
+	)
+	(label "WLED2"
+		(at 200.66 27.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "52225e81-62ff-4179-a3e3-db3d4b8d1d28")
+	)
+	(label "PLED1"
+		(at 3.81 13.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5719745b-9df9-4186-87de-467ce24a4b46")
+	)
+	(label "PLED2"
+		(at 3.81 27.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6439e14c-55ee-4e2c-a5ce-1a3fdfabd24d")
+	)
+	(label "PLED1"
+		(at 82.55 13.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "80afc24e-09f8-4504-9c85-b92e83435f99")
+	)
+	(label "WLED1"
+		(at 193.04 0 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8b111b54-b458-4a78-920b-243872a158bc")
+	)
+	(label "WLED0"
+		(at -48.26 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "951d4502-efdc-4e2c-bbf3-b9ee9bae2aaf")
+	)
+	(label "WLED0"
+		(at 193.04 27.94 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "956c0c9d-ce4c-4e7f-8873-6d8d3323a581")
+	)
+	(label "PLED0"
+		(at -3.81 13.97 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "98e79e2a-5497-449b-9cd7-04178eddd355")
+	)
+	(label "WLED0"
+		(at 200.66 0 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a335abe5-d4fb-42ae-8c8b-7b48ce3f4fa5")
+	)
+	(label "WLED3"
+		(at 271.78 13.97 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a6754ca7-aa4e-440e-994b-3efa94783222")
+	)
+	(label "WLED1"
+		(at 279.4 13.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "aaeca795-298c-453a-bb3a-742376e0bcc1")
+	)
+	(label "PLED0"
+		(at -3.81 41.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b2e8822f-aa93-4ed8-8f5a-93c12155e6af")
+	)
+	(label "WLED1"
+		(at 200.66 13.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b3b7a048-1172-4c21-bbdc-24ca5cebb363")
+	)
+	(label "PLED0"
+		(at -3.81 27.94 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b7270db2-a4d2-4454-abe9-eadbf1363b30")
+	)
+	(label "WLED3"
+		(at 271.78 0 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b81182ca-aa97-4ea0-acd9-178847b0dabe")
+	)
+	(label "WLED2"
+		(at 232.41 13.97 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bac352d9-bd8a-4bbc-b6e1-bc5a7d4b277f")
+	)
+	(label "WLED2"
+		(at -48.26 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bf10ad9a-52c2-46b7-8854-8bd8406e7098")
+	)
+	(label "WLED1"
+		(at 240.03 13.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c5467d71-8b09-43be-8a4c-91429990eb03")
+	)
+	(label "PLED2"
+		(at 82.55 27.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c8b06604-822e-493f-a769-c7ee24125859")
+	)
+	(label "PLED3"
+		(at 43.18 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c8b71ffc-3a55-441d-bfdd-3cb0cd3b5aa0")
+	)
+	(label "PLED0"
+		(at 43.18 0 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c8d36a67-1a45-4152-9a74-afa11d61577d")
+	)
+	(label "PLED2"
+		(at 74.93 41.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cad29998-9cba-4a44-a41a-a99f16819953")
+	)
+	(label "PLED1"
+		(at -3.81 0 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cc07940b-6bb0-473a-bafb-89037c0b1036")
+	)
+	(label "PLED0"
+		(at 82.55 0 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d6d771af-0d1a-4ead-893d-e80e3bb7538a")
+	)
+	(label "WLED0"
+		(at 193.04 41.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d8a6e062-6773-407f-a2ab-21d5e4054a98")
+	)
+	(label "WLED0"
+		(at 279.4 0 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d8e02a6a-c7b1-43e4-ab7c-5d596bf248bd")
+	)
+	(label "PLED2"
+		(at 35.56 0 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d9d47b0d-0fd3-46e2-92f7-e916a25c5789")
+	)
+	(label "PLED3"
+		(at -48.26 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "de7dd498-3eaa-4367-b590-a5016f602531")
+	)
+	(label "PLED0"
+		(at -48.26 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e1eee223-31b3-42f6-b2e7-f69b190b538d")
+	)
+	(label "PLED2"
+		(at -48.26 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e532115c-5235-4cac-8747-6b58b9f84f54")
+	)
+	(label "WLED3"
+		(at -48.26 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e5acfa95-0bec-40a0-98b0-f37707d6cc80")
+	)
+	(label "PLED0"
+		(at 3.81 0 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e921ad4d-4f08-408b-8439-32ab4a2728fd")
+	)
+	(label "PLED1"
+		(at -48.26 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ebef9e75-b24b-4e5d-a1b2-6a920525bb10")
+	)
+	(label "PLED2"
+		(at 43.18 27.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ef4ec312-ec30-4f93-8dc2-c31029b89bde")
+	)
+	(label "WLED1"
+		(at -48.26 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f713ce45-a3ed-4be2-a42d-250fbe34b692")
+	)
+	(label "PLED1"
+		(at 35.56 27.94 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ff4e31a5-0989-40c6-a0ab-57887c8380df")
+	)
+	(hierarchical_label "WLED0"
+		(shape bidirectional)
+		(at -50.8 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1402e955-4b67-47dd-a6b5-5b6e47865ab0")
+	)
+	(hierarchical_label "PLED0"
+		(shape bidirectional)
+		(at -50.8 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "545d97ec-43f9-419a-8c6f-a3ec5fc4c8c5")
+	)
+	(hierarchical_label "PLED3"
+		(shape bidirectional)
+		(at -50.8 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5e61dc7a-8a1b-4e64-83fa-ac9d2a279915")
+	)
+	(hierarchical_label "WLED2"
+		(shape bidirectional)
+		(at -50.8 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8dbc9e80-6251-472b-8a86-0afde63c29a6")
+	)
+	(hierarchical_label "WLED1"
+		(shape bidirectional)
+		(at -50.8 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a3c3817f-2205-4fd9-986a-ee869963021b")
+	)
+	(hierarchical_label "WLED3"
+		(shape bidirectional)
+		(at -50.8 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bbeffaab-ba62-41cb-abc8-cca46b31822a")
+	)
+	(hierarchical_label "PLED1"
+		(shape bidirectional)
+		(at -50.8 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d624be05-dcd6-4e2a-8ee7-74a9c4f563e7")
+	)
+	(hierarchical_label "PLED2"
+		(shape bidirectional)
+		(at -50.8 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f96c0249-e1f8-4fd7-b01c-17ee4dbf6b5a")
+	)
+	(symbol
+		(lib_id "/home/critbit/Projects/hardware/kicad-libs/kicad-main/kicad-symbols/Device.kicad_symdir/LED:LED")
+		(at 78.74 27.94 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "13422cd0-d25d-5d6b-a261-7c545ef13f65")
+		(property "Reference" "LED09"
+			(at 78.74 25.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0603_PINK"
+			(at 78.74 30.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 78.74 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 78.74 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LedMX-name" "LED09"
+			(at 78.74 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4837463d-8253-4253-8543-34180e694b77")
+		)
+		(pin "2"
+			(uuid "ea07db94-4c59-43df-9684-4d572b962a07")
+		)
+		(instances
+			(project "providencebadge"
+				(path "/56472f0f-b501-4745-be4e-714d2b047146/7b2e4a4b-02f1-4385-adc1-964c586df7b0"
+					(reference "LED09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "/home/critbit/Projects/hardware/kicad-libs/kicad-main/kicad-symbols/Device.kicad_symdir/LED:LED")
+		(at 39.37 41.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1683938c-84a5-5b69-9e89-d835d23de4b9")
+		(property "Reference" "LED11"
+			(at 39.37 39.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0603_PINK"
+			(at 39.37 44.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 39.37 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 39.37 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LedMX-name" "LED11"
+			(at 39.37 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d85eadb9-ec33-4fb8-a25a-1fffa9acedbf")
+		)
+		(pin "2"
+			(uuid "96310855-3431-4b4a-bb41-d90c041feed3")
+		)
+		(instances
+			(project "providencebadge"
+				(path "/56472f0f-b501-4745-be4e-714d2b047146/7b2e4a4b-02f1-4385-adc1-964c586df7b0"
+					(reference "LED11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "/home/critbit/Projects/hardware/kicad-libs/kicad-main/kicad-symbols/Device.kicad_symdir/LED:LED")
+		(at 275.59 0 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1991efcd-9081-5779-a3dc-16a52548efb2")
+		(property "Reference" "LED15"
+			(at 275.59 -2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0603_WHITE"
+			(at 275.59 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 275.59 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 275.59 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 275.59 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LedMX-name" "LED15"
+			(at 275.59 5.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9acf288f-67ad-426c-8b99-ebdb13839118")
+		)
+		(pin "2"
+			(uuid "7e188261-5ffe-41d1-81a0-e2214c4b8bc8")
+		)
+		(instances
+			(project "providencebadge"
+				(path "/56472f0f-b501-4745-be4e-714d2b047146/7b2e4a4b-02f1-4385-adc1-964c586df7b0"
+					(reference "LED15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "/home/critbit/Projects/hardware/kicad-libs/kicad-main/kicad-symbols/Device.kicad_symdir/LED:LED")
+		(at 78.74 41.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1a5db709-4d92-59ee-9f3a-84368e3d7eb6")
+		(property "Reference" "LED12"
+			(at 78.74 39.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0603_PINK"
+			(at 78.74 44.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 78.74 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 78.74 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LedMX-name" "LED12"
+			(at 78.74 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "08b25a77-b334-4409-8261-89e7aa4102d2")
+		)
+		(pin "2"
+			(uuid "fd13b7ce-2fa6-41bb-a507-069b49d39118")
+		)
+		(instances
+			(project "providencebadge"
+				(path "/56472f0f-b501-4745-be4e-714d2b047146/7b2e4a4b-02f1-4385-adc1-964c586df7b0"
+					(reference "LED12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "/home/critbit/Projects/hardware/kicad-libs/kicad-main/kicad-symbols/Device.kicad_symdir/LED:LED")
+		(at 196.85 41.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "29579df7-85a1-5f7d-ae50-377e6c65bc28")
+		(property "Reference" "LED22"
+			(at 196.85 39.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0603_WHITE"
+			(at 196.85 44.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 196.85 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 196.85 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LedMX-name" "LED22"
+			(at 196.85 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "006cdd55-27ab-4545-926c-7d204b032601")
+		)
+		(pin "2"
+			(uuid "13324cc3-aff1-4a7d-bff8-e71335371d23")
+		)
+		(instances
+			(project "providencebadge"
+				(path "/56472f0f-b501-4745-be4e-714d2b047146/7b2e4a4b-02f1-4385-adc1-964c586df7b0"
+					(reference "LED22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "/home/critbit/Projects/hardware/kicad-libs/kicad-main/kicad-symbols/Device.kicad_symdir/LED:LED")
+		(at 39.37 27.94 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "34c06c93-4e9e-5fb9-a6d8-e1be15789aba")
+		(property "Reference" "LED08"
+			(at 39.37 25.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0603_PINK"
+			(at 39.37 30.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 39.37 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 39.37 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LedMX-name" "LED08"
+			(at 39.37 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "615ff035-d807-4a53-a6ed-969b5f51fb43")
+		)
+		(pin "2"
+			(uuid "4d41171b-ac0a-40d1-ac4e-4da549298614")
+		)
+		(instances
+			(project "providencebadge"
+				(path "/56472f0f-b501-4745-be4e-714d2b047146/7b2e4a4b-02f1-4385-adc1-964c586df7b0"
+					(reference "LED08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "/home/critbit/Projects/hardware/kicad-libs/kicad-main/kicad-symbols/Device.kicad_symdir/LED:LED")
+		(at 0 27.94 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "548d0a93-8597-5deb-8bec-9548aeede729")
+		(property "Reference" "LED07"
+			(at 0 25.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0603_PINK"
+			(at 0 30.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 0 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 0 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LedMX-name" "LED07"
+			(at 0 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "75a49070-54e7-4254-b658-dfd9584b8eee")
+		)
+		(pin "1"
+			(uuid "3100bab9-ac05-4da0-a19d-390903661642")
+		)
+		(instances
+			(project "providencebadge"
+				(path "/56472f0f-b501-4745-be4e-714d2b047146/7b2e4a4b-02f1-4385-adc1-964c586df7b0"
+					(reference "LED07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "/home/critbit/Projects/hardware/kicad-libs/kicad-main/kicad-symbols/Device.kicad_symdir/LED:LED")
+		(at 196.85 13.97 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5deb692d-dbd1-52a5-8b65-d11c5281206d")
+		(property "Reference" "LED16"
+			(at 196.85 11.43 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0603_WHITE"
+			(at 196.85 16.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 196.85 13.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 13.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 196.85 13.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LedMX-name" "LED16"
+			(at 196.85 19.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4d90fb05-afcf-40d1-94c7-4ae8861bf10d")
+		)
+		(pin "2"
+			(uuid "dc980423-36d1-4eb3-ba00-9a92e8cf0d3e")
+		)
+		(instances
+			(project "providencebadge"
+				(path "/56472f0f-b501-4745-be4e-714d2b047146/7b2e4a4b-02f1-4385-adc1-964c586df7b0"
+					(reference "LED16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "/home/critbit/Projects/hardware/kicad-libs/kicad-main/kicad-symbols/Device.kicad_symdir/LED:LED")
+		(at 236.22 0 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "67c56b87-8caa-55cc-acdd-6638f98357dd")
+		(property "Reference" "LED14"
+			(at 236.22 -2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0603_WHITE"
+			(at 236.22 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 236.22 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.22 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 236.22 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LedMX-name" "LED14"
+			(at 236.22 5.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "0645f63a-ed07-4edb-913b-a7c299a494d4")
+		)
+		(pin "1"
+			(uuid "5084afa4-6a28-4838-aa3c-8e32b2c08f11")
+		)
+		(instances
+			(project "providencebadge"
+				(path "/56472f0f-b501-4745-be4e-714d2b047146/7b2e4a4b-02f1-4385-adc1-964c586df7b0"
+					(reference "LED14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "/home/critbit/Projects/hardware/kicad-libs/kicad-main/kicad-symbols/Device.kicad_symdir/LED:LED")
+		(at 0 41.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6c880c9c-3b95-5705-a5af-c65a92ddc3d3")
+		(property "Reference" "LED10"
+			(at 0 39.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0603_PINK"
+			(at 0 44.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 0 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 0 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LedMX-name" "LED10"
+			(at 0 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dad79480-4c26-40a3-8a6d-aa3035d430c2")
+		)
+		(pin "2"
+			(uuid "1c0bbcb9-0a13-42fd-aa6a-dfafd3700ac6")
+		)
+		(instances
+			(project "providencebadge"
+				(path "/56472f0f-b501-4745-be4e-714d2b047146/7b2e4a4b-02f1-4385-adc1-964c586df7b0"
+					(reference "LED10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "/home/critbit/Projects/hardware/kicad-libs/kicad-main/kicad-symbols/Device.kicad_symdir/LED:LED")
+		(at 236.22 41.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6dea695f-c1eb-5203-8851-d0189dc99417")
+		(property "Reference" "LED23"
+			(at 236.22 39.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0603_WHITE"
+			(at 236.22 44.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 236.22 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.22 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 236.22 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LedMX-name" "LED23"
+			(at 236.22 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "84d38f06-e527-4995-aa50-722905a1edfd")
+		)
+		(pin "1"
+			(uuid "c9983b65-5d69-4e18-b524-a7bfff79173d")
+		)
+		(instances
+			(project "providencebadge"
+				(path "/56472f0f-b501-4745-be4e-714d2b047146/7b2e4a4b-02f1-4385-adc1-964c586df7b0"
+					(reference "LED23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "/home/critbit/Projects/hardware/kicad-libs/kicad-main/kicad-symbols/Device.kicad_symdir/LED:LED")
+		(at 196.85 27.94 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8bea740a-9f95-57d2-81e8-58642be41769")
+		(property "Reference" "LED19"
+			(at 196.85 25.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0603_WHITE"
+			(at 196.85 30.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 196.85 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 196.85 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LedMX-name" "LED19"
+			(at 196.85 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "1910a185-bd58-47f1-9f8e-fdcb98c4578c")
+		)
+		(pin "1"
+			(uuid "84d68a5c-380a-4567-86e2-69e5fb1e7147")
+		)
+		(instances
+			(project "providencebadge"
+				(path "/56472f0f-b501-4745-be4e-714d2b047146/7b2e4a4b-02f1-4385-adc1-964c586df7b0"
+					(reference "LED19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "/home/critbit/Projects/hardware/kicad-libs/kicad-main/kicad-symbols/Device.kicad_symdir/LED:LED")
+		(at 0 13.97 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "987d6413-8669-5ef1-86dd-b91876aff2ab")
+		(property "Reference" "LED04"
+			(at 0 11.43 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0603_PINK"
+			(at 0 16.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 0 13.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 13.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 0 13.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LedMX-name" "LED04"
+			(at 0 19.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "eeb20087-8bcf-4ca6-9b53-d6046542ecc2")
+		)
+		(pin "2"
+			(uuid "be2ea242-b1fb-4fe3-b2f4-017ddcb7f8b9")
+		)
+		(instances
+			(project "providencebadge"
+				(path "/56472f0f-b501-4745-be4e-714d2b047146/7b2e4a4b-02f1-4385-adc1-964c586df7b0"
+					(reference "LED04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "/home/critbit/Projects/hardware/kicad-libs/kicad-main/kicad-symbols/Device.kicad_symdir/LED:LED")
+		(at 275.59 13.97 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9ec64e4b-8313-51e0-bd64-a8070c90d70a")
+		(property "Reference" "LED18"
+			(at 275.59 11.43 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0603_WHITE"
+			(at 275.59 16.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 275.59 13.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 275.59 13.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 275.59 13.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LedMX-name" "LED18"
+			(at 275.59 19.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7ffae122-9915-4c36-945c-9184cdb0df5f")
+		)
+		(pin "2"
+			(uuid "438cdfbb-4e24-48e3-bd02-7f593f46803f")
+		)
+		(instances
+			(project "providencebadge"
+				(path "/56472f0f-b501-4745-be4e-714d2b047146/7b2e4a4b-02f1-4385-adc1-964c586df7b0"
+					(reference "LED18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "/home/critbit/Projects/hardware/kicad-libs/kicad-main/kicad-symbols/Device.kicad_symdir/LED:LED")
+		(at 275.59 41.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a35508d8-b52e-57b1-a38e-4eae336f679c")
+		(property "Reference" "LED24"
+			(at 275.59 39.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0603_WHITE"
+			(at 275.59 44.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 275.59 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 275.59 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 275.59 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LedMX-name" "LED24"
+			(at 275.59 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "31ff0513-1cba-4981-8773-d54a485860f4")
+		)
+		(pin "1"
+			(uuid "87be2786-8f04-4487-8b3a-1f3c969703c2")
+		)
+		(instances
+			(project "providencebadge"
+				(path "/56472f0f-b501-4745-be4e-714d2b047146/7b2e4a4b-02f1-4385-adc1-964c586df7b0"
+					(reference "LED24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "/home/critbit/Projects/hardware/kicad-libs/kicad-main/kicad-symbols/Device.kicad_symdir/LED:LED")
+		(at 196.85 0 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a8c56bc3-e4ca-546e-a03c-685e6cc1d11b")
+		(property "Reference" "LED13"
+			(at 196.85 -2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0603_WHITE"
+			(at 196.85 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 196.85 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 196.85 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LedMX-name" "LED13"
+			(at 196.85 5.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "43c196ad-4703-4ae5-a156-ff5439038d95")
+		)
+		(pin "1"
+			(uuid "ee95077d-cd26-4f1e-9198-32677a0d8b63")
+		)
+		(instances
+			(project "providencebadge"
+				(path "/56472f0f-b501-4745-be4e-714d2b047146/7b2e4a4b-02f1-4385-adc1-964c586df7b0"
+					(reference "LED13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "/home/critbit/Projects/hardware/kicad-libs/kicad-main/kicad-symbols/Device.kicad_symdir/LED:LED")
+		(at 78.74 13.97 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ac607f9b-7ef6-5b77-b5c0-71f2c9e87736")
+		(property "Reference" "LED06"
+			(at 78.74 11.43 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0603_PINK"
+			(at 78.74 16.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 78.74 13.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 13.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 78.74 13.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LedMX-name" "LED06"
+			(at 78.74 19.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "7ac1e4c8-8908-4a50-bb39-defe42adab70")
+		)
+		(pin "1"
+			(uuid "30887c67-997c-4bf3-87a1-8ee8044310b0")
+		)
+		(instances
+			(project "providencebadge"
+				(path "/56472f0f-b501-4745-be4e-714d2b047146/7b2e4a4b-02f1-4385-adc1-964c586df7b0"
+					(reference "LED06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "/home/critbit/Projects/hardware/kicad-libs/kicad-main/kicad-symbols/Device.kicad_symdir/LED:LED")
+		(at 39.37 13.97 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b750b1af-1722-593c-b5e6-001ba32fa8b8")
+		(property "Reference" "LED05"
+			(at 39.37 11.43 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0603_PINK"
+			(at 39.37 16.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 39.37 13.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 13.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 39.37 13.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LedMX-name" "LED05"
+			(at 39.37 19.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3d90a2b9-c27a-4661-a9f8-6f9dfa815314")
+		)
+		(pin "2"
+			(uuid "87e26e7d-e20c-4fb9-a1e1-04eeb80a955c")
+		)
+		(instances
+			(project "providencebadge"
+				(path "/56472f0f-b501-4745-be4e-714d2b047146/7b2e4a4b-02f1-4385-adc1-964c586df7b0"
+					(reference "LED05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "/home/critbit/Projects/hardware/kicad-libs/kicad-main/kicad-symbols/Device.kicad_symdir/LED:LED")
+		(at 39.37 0 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bde4b275-3181-5a32-96cd-acaffd22e22a")
+		(property "Reference" "LED02"
+			(at 39.37 -2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0603_PINK"
+			(at 39.37 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 39.37 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 39.37 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LedMX-name" "LED02"
+			(at 39.37 5.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "981195cf-a625-4e55-8147-a353684f1050")
+		)
+		(pin "2"
+			(uuid "ef842b50-59c1-4812-8411-f52d92c8630e")
+		)
+		(instances
+			(project "providencebadge"
+				(path "/56472f0f-b501-4745-be4e-714d2b047146/7b2e4a4b-02f1-4385-adc1-964c586df7b0"
+					(reference "LED02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "/home/critbit/Projects/hardware/kicad-libs/kicad-main/kicad-symbols/Device.kicad_symdir/LED:LED")
+		(at 275.59 27.94 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d4c9475b-bf87-5fe8-953b-4c3c156187b1")
+		(property "Reference" "LED21"
+			(at 275.59 25.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0603_WHITE"
+			(at 275.59 30.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 275.59 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 275.59 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 275.59 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LedMX-name" "LED21"
+			(at 275.59 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "85f9da70-651e-4ab1-bf47-531f18c5ef15")
+		)
+		(pin "1"
+			(uuid "0d7cf1f4-e979-43a0-9d7c-5ab449dc66dd")
+		)
+		(instances
+			(project "providencebadge"
+				(path "/56472f0f-b501-4745-be4e-714d2b047146/7b2e4a4b-02f1-4385-adc1-964c586df7b0"
+					(reference "LED21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "/home/critbit/Projects/hardware/kicad-libs/kicad-main/kicad-symbols/Device.kicad_symdir/LED:LED")
+		(at 236.22 27.94 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "eecc15d3-05e9-52d0-920a-490bdc90816a")
+		(property "Reference" "LED20"
+			(at 236.22 25.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0603_WHITE"
+			(at 236.22 30.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 236.22 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.22 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 236.22 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LedMX-name" "LED20"
+			(at 236.22 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6cba212e-4070-4f53-bba5-608b3015c448")
+		)
+		(pin "2"
+			(uuid "cbc837d3-cf7c-4e07-afea-1b50e7ee0ec8")
+		)
+		(instances
+			(project "providencebadge"
+				(path "/56472f0f-b501-4745-be4e-714d2b047146/7b2e4a4b-02f1-4385-adc1-964c586df7b0"
+					(reference "LED20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "/home/critbit/Projects/hardware/kicad-libs/kicad-main/kicad-symbols/Device.kicad_symdir/LED:LED")
+		(at 78.74 0 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "eed516e4-75e3-578e-9682-a3da08bdea1a")
+		(property "Reference" "LED03"
+			(at 78.74 -2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0603_PINK"
+			(at 78.74 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 78.74 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 78.74 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LedMX-name" "LED03"
+			(at 78.74 5.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7103d186-d61c-4820-89aa-636393d6d602")
+		)
+		(pin "2"
+			(uuid "d55d4398-dece-4ec1-bf8e-d50e365511c1")
+		)
+		(instances
+			(project "providencebadge"
+				(path "/56472f0f-b501-4745-be4e-714d2b047146/7b2e4a4b-02f1-4385-adc1-964c586df7b0"
+					(reference "LED03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "/home/critbit/Projects/hardware/kicad-libs/kicad-main/kicad-symbols/Device.kicad_symdir/LED:LED")
+		(at 236.22 13.97 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f5cad2e2-a3b0-5e3c-b1ff-3f9d8fd920f9")
+		(property "Reference" "LED17"
+			(at 236.22 11.43 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0603_WHITE"
+			(at 236.22 16.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 236.22 13.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.22 13.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 236.22 13.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LedMX-name" "LED17"
+			(at 236.22 19.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "cd141f84-08c5-48c4-8825-2ac550ab30e0")
+		)
+		(pin "1"
+			(uuid "c215df3b-3db3-4871-b075-a1f2904c2960")
+		)
+		(instances
+			(project "providencebadge"
+				(path "/56472f0f-b501-4745-be4e-714d2b047146/7b2e4a4b-02f1-4385-adc1-964c586df7b0"
+					(reference "LED17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "/home/critbit/Projects/hardware/kicad-libs/kicad-main/kicad-symbols/Device.kicad_symdir/LED:LED")
+		(at 0 0 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fe7c200f-bde7-5eba-b67b-9d7189a9f2e4")
+		(property "Reference" "LED01"
+			(at 0 -2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0603_PINK"
+			(at 0 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LedMX-name" "LED01"
+			(at 0 5.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ae2267da-ba7e-47f9-8dd3-0ef97fb3fe25")
+		)
+		(pin "1"
+			(uuid "12bb11cc-ee36-4f7b-a7a0-6d5c7a3f649a")
+		)
+		(instances
+			(project "providencebadge"
+				(path "/56472f0f-b501-4745-be4e-714d2b047146/7b2e4a4b-02f1-4385-adc1-964c586df7b0"
+					(reference "LED01")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

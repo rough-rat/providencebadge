@@ -1,0 +1,283 @@
+{
+  "metadata": {
+    "name": "Providence Badge - 24 LED Charlieplex Clock Ring",
+    "version": "1.1",
+    "generated_at": "2026-04-05"
+  },
+  "matrix_mode": "charlieplex",
+  "led_packages": [
+    {
+      "name": "0603_PINK",
+      "size_x": 1.6,
+      "size_y": 0.8,
+      "kicad_lib": "Device:LED",
+      "footprint_lib": "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+    },
+    {
+      "name": "0603_WHITE",
+      "size_x": 1.6,
+      "size_y": 0.8,
+      "kicad_lib": "Device:LED",
+      "footprint_lib": "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+    }
+  ],
+  "leds": [
+    {
+      "index": 0,
+      "name": "LED_PINK_H12",
+      "x_mm": 50.0,
+      "y_mm": 33.0,
+      "package": "0603_PINK",
+      "rotation_deg": 0
+    },
+    {
+      "index": 1,
+      "name": "LED_PINK_H1",
+      "x_mm": 58.5,
+      "y_mm": 35.278,
+      "package": "0603_PINK",
+      "rotation_deg": 30
+    },
+    {
+      "index": 2,
+      "name": "LED_PINK_H2",
+      "x_mm": 64.722,
+      "y_mm": 41.5,
+      "package": "0603_PINK",
+      "rotation_deg": 60
+    },
+    {
+      "index": 3,
+      "name": "LED_PINK_H3",
+      "x_mm": 67.0,
+      "y_mm": 50.0,
+      "package": "0603_PINK",
+      "rotation_deg": 90
+    },
+    {
+      "index": 4,
+      "name": "LED_PINK_H4",
+      "x_mm": 64.722,
+      "y_mm": 58.5,
+      "package": "0603_PINK",
+      "rotation_deg": 120
+    },
+    {
+      "index": 5,
+      "name": "LED_PINK_H5",
+      "x_mm": 58.5,
+      "y_mm": 64.722,
+      "package": "0603_PINK",
+      "rotation_deg": 150
+    },
+    {
+      "index": 6,
+      "name": "LED_PINK_H6",
+      "x_mm": 50.0,
+      "y_mm": 67.0,
+      "package": "0603_PINK",
+      "rotation_deg": 180
+    },
+    {
+      "index": 7,
+      "name": "LED_PINK_H7",
+      "x_mm": 41.5,
+      "y_mm": 64.722,
+      "package": "0603_PINK",
+      "rotation_deg": 210
+    },
+    {
+      "index": 8,
+      "name": "LED_PINK_H8",
+      "x_mm": 35.278,
+      "y_mm": 58.5,
+      "package": "0603_PINK",
+      "rotation_deg": 240
+    },
+    {
+      "index": 9,
+      "name": "LED_PINK_H9",
+      "x_mm": 33.0,
+      "y_mm": 50.0,
+      "package": "0603_PINK",
+      "rotation_deg": 270
+    },
+    {
+      "index": 10,
+      "name": "LED_PINK_H10",
+      "x_mm": 35.278,
+      "y_mm": 41.5,
+      "package": "0603_PINK",
+      "rotation_deg": 300
+    },
+    {
+      "index": 11,
+      "name": "LED_PINK_H11",
+      "x_mm": 41.5,
+      "y_mm": 35.278,
+      "package": "0603_PINK",
+      "rotation_deg": 330
+    },
+    {
+      "index": 12,
+      "name": "LED_WHITE_H12_P15",
+      "x_mm": 54.4,
+      "y_mm": 33.579,
+      "package": "0603_WHITE",
+      "rotation_deg": 15
+    },
+    {
+      "index": 13,
+      "name": "LED_WHITE_H1_P15",
+      "x_mm": 62.021,
+      "y_mm": 37.979,
+      "package": "0603_WHITE",
+      "rotation_deg": 45
+    },
+    {
+      "index": 14,
+      "name": "LED_WHITE_H2_P15",
+      "x_mm": 66.421,
+      "y_mm": 45.6,
+      "package": "0603_WHITE",
+      "rotation_deg": 75
+    },
+    {
+      "index": 15,
+      "name": "LED_WHITE_H3_P15",
+      "x_mm": 66.421,
+      "y_mm": 54.4,
+      "package": "0603_WHITE",
+      "rotation_deg": 105
+    },
+    {
+      "index": 16,
+      "name": "LED_WHITE_H4_P15",
+      "x_mm": 62.021,
+      "y_mm": 62.021,
+      "package": "0603_WHITE",
+      "rotation_deg": 135
+    },
+    {
+      "index": 17,
+      "name": "LED_WHITE_H5_P15",
+      "x_mm": 54.4,
+      "y_mm": 66.421,
+      "package": "0603_WHITE",
+      "rotation_deg": 165
+    },
+    {
+      "index": 18,
+      "name": "LED_WHITE_H6_P15",
+      "x_mm": 45.6,
+      "y_mm": 66.421,
+      "package": "0603_WHITE",
+      "rotation_deg": 195
+    },
+    {
+      "index": 19,
+      "name": "LED_WHITE_H7_P15",
+      "x_mm": 37.979,
+      "y_mm": 62.021,
+      "package": "0603_WHITE",
+      "rotation_deg": 225
+    },
+    {
+      "index": 20,
+      "name": "LED_WHITE_H8_P15",
+      "x_mm": 33.579,
+      "y_mm": 54.4,
+      "package": "0603_WHITE",
+      "rotation_deg": 255
+    },
+    {
+      "index": 21,
+      "name": "LED_WHITE_H9_P15",
+      "x_mm": 33.579,
+      "y_mm": 45.6,
+      "package": "0603_WHITE",
+      "rotation_deg": 285
+    },
+    {
+      "index": 22,
+      "name": "LED_WHITE_H10_P15",
+      "x_mm": 37.979,
+      "y_mm": 37.979,
+      "package": "0603_WHITE",
+      "rotation_deg": 315
+    },
+    {
+      "index": 23,
+      "name": "LED_WHITE_H11_P15",
+      "x_mm": 45.6,
+      "y_mm": 33.579,
+      "package": "0603_WHITE",
+      "rotation_deg": 345
+    }
+  ],
+  "entities": [
+    {
+      "name": "pink_hours",
+      "type": "ring",
+      "map": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "name": "white_half_steps",
+      "type": "ring",
+      "map": [
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ]
+    }
+  ],
+  "overlays": [
+    {
+      "name": "PCB Edge Reference 40x40",
+      "type": "guide",
+      "source_path": "LLM_workspace",
+      "polygons": [
+        [
+          {
+            "x_mm": 30.0,
+            "y_mm": 30.0
+          },
+          {
+            "x_mm": 70.0,
+            "y_mm": 30.0
+          },
+          {
+            "x_mm": 70.0,
+            "y_mm": 70.0
+          },
+          {
+            "x_mm": 30.0,
+            "y_mm": 70.0
+          }
+        ]
+      ]
+    }
+  ]
+}
