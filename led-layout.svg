@@ -1,0 +1,199 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="180mm" height="180mm" viewBox="22.000 22.000 56.000 56.000">
+  <title>Providence Badge - 24 LED Charlieplex Clock Ring LED layout</title>
+  <desc>Generated from layout.json. Coordinates are in millimeters; LED indexes match layout.json.</desc>
+  <style>
+    .bg { fill: #fbfcfe; }
+    .edge { fill: none; stroke: #9aa5b1; stroke-width: 0.18; stroke-dasharray: 1.2 0.8; }
+    .guide { fill: none; stroke: #d8dee6; stroke-width: 0.12; }
+    .center { fill: #20242b; opacity: 0.5; }
+    .led-body { stroke-width: 0.22; }
+    .pink-led { fill: #ff4fa3; stroke: #9f1d5b; }
+    .white-led { fill: #f7fbff; stroke: #4585b5; }
+    .index-label { font-family: Inter, Arial, sans-serif; font-size: 1.7px; font-weight: 700; text-anchor: middle; dominant-baseline: central; fill: #20242b; paint-order: stroke; stroke: #fbfcfe; stroke-width: 0.35; stroke-linejoin: round; }
+    .hour-label { font-family: Inter, Arial, sans-serif; font-size: 1.65px; font-weight: 600; text-anchor: middle; dominant-baseline: central; fill: #68717d; }
+    .title { font-family: Inter, Arial, sans-serif; font-size: 2.4px; font-weight: 800; fill: #20242b; }
+    .meta { font-family: Inter, Arial, sans-serif; font-size: 1.45px; fill: #68717d; }
+    .legend-text { font-family: Inter, Arial, sans-serif; font-size: 1.65px; fill: #20242b; dominant-baseline: central; }
+  </style>
+  <rect class="bg" x="22.000" y="22.000" width="56.000" height="56.000"/>
+  <polygon class="edge" points="30.000,30.000 70.000,30.000 70.000,70.000 30.000,70.000"/>
+  <circle class="guide" cx="50" cy="50" r="17"/>
+  <circle class="guide" cx="50" cy="50" r="16.6"/>
+  <circle class="center" cx="50" cy="50" r="0.45"/>
+  <line class="guide" x1="50" y1="30" x2="50" y2="70"/>
+  <line class="guide" x1="30" y1="50" x2="70" y2="50"/>
+  <text class="title" x="23.500" y="25.000">Providence Badge LED Map</text>
+  <text class="meta" x="23.500" y="27.500">layout.json indexes, coordinates in mm</text>
+  <rect class="led-body pink-led" x="23.700" y="72.000" width="2.2" height="1.1" rx="0.2"/>
+  <text class="legend-text" x="26.900" y="72.550">pink hour ring, indexes 0-11</text>
+  <rect class="led-body white-led" x="23.700" y="74.500" width="2.2" height="1.1" rx="0.2"/>
+  <text class="legend-text" x="26.900" y="75.050">white half-step ring, indexes 12-23</text>
+  <text class="hour-label" x="50.000" y="30.650">H12</text>
+  <text class="hour-label" x="59.675" y="33.243">H1</text>
+  <text class="hour-label" x="66.757" y="40.325">H2</text>
+  <text class="hour-label" x="69.350" y="50.000">H3</text>
+  <text class="hour-label" x="66.757" y="59.675">H4</text>
+  <text class="hour-label" x="59.675" y="66.757">H5</text>
+  <text class="hour-label" x="50.000" y="69.350">H6</text>
+  <text class="hour-label" x="40.325" y="66.757">H7</text>
+  <text class="hour-label" x="33.243" y="59.675">H8</text>
+  <text class="hour-label" x="30.650" y="50.000">H9</text>
+  <text class="hour-label" x="33.243" y="40.325">H10</text>
+  <text class="hour-label" x="40.325" y="33.243">H11</text>
+  <text class="hour-label" x="55.176" y="30.681">H12+</text>
+  <text class="hour-label" x="64.142" y="35.858">H1+</text>
+  <text class="hour-label" x="69.319" y="44.824">H2+</text>
+  <text class="hour-label" x="69.319" y="55.176">H3+</text>
+  <text class="hour-label" x="64.142" y="64.142">H4+</text>
+  <text class="hour-label" x="55.176" y="69.319">H5+</text>
+  <text class="hour-label" x="44.824" y="69.319">H6+</text>
+  <text class="hour-label" x="35.858" y="64.142">H7+</text>
+  <text class="hour-label" x="30.681" y="55.176">H8+</text>
+  <text class="hour-label" x="30.681" y="44.824">H9+</text>
+  <text class="hour-label" x="35.858" y="35.858">H10+</text>
+  <text class="hour-label" x="44.824" y="30.681">H11+</text>
+  <g id="led-00" transform="translate(50.000 33.000) rotate(0.000)">
+    <title>0: LED_PINK_H12</title>
+    <rect class="led-body pink-led" x="-1.075" y="-0.575" width="2.150" height="1.150" rx="0.18"/>
+    <line x1="-0.795" y1="-0.575" x2="-0.795" y2="0.575" stroke="#20242b" stroke-width="0.12" opacity="0.55"/>
+  </g>
+  <text class="index-label" x="50.000" y="33.000">0</text>
+  <g id="led-01" transform="translate(58.500 35.278) rotate(30.000)">
+    <title>1: LED_PINK_H1</title>
+    <rect class="led-body pink-led" x="-1.075" y="-0.575" width="2.150" height="1.150" rx="0.18"/>
+    <line x1="-0.795" y1="-0.575" x2="-0.795" y2="0.575" stroke="#20242b" stroke-width="0.12" opacity="0.55"/>
+  </g>
+  <text class="index-label" x="58.500" y="35.278">1</text>
+  <g id="led-02" transform="translate(64.722 41.500) rotate(60.000)">
+    <title>2: LED_PINK_H2</title>
+    <rect class="led-body pink-led" x="-1.075" y="-0.575" width="2.150" height="1.150" rx="0.18"/>
+    <line x1="-0.795" y1="-0.575" x2="-0.795" y2="0.575" stroke="#20242b" stroke-width="0.12" opacity="0.55"/>
+  </g>
+  <text class="index-label" x="64.722" y="41.500">2</text>
+  <g id="led-03" transform="translate(67.000 50.000) rotate(90.000)">
+    <title>3: LED_PINK_H3</title>
+    <rect class="led-body pink-led" x="-1.075" y="-0.575" width="2.150" height="1.150" rx="0.18"/>
+    <line x1="-0.795" y1="-0.575" x2="-0.795" y2="0.575" stroke="#20242b" stroke-width="0.12" opacity="0.55"/>
+  </g>
+  <text class="index-label" x="67.000" y="50.000">3</text>
+  <g id="led-04" transform="translate(64.722 58.500) rotate(120.000)">
+    <title>4: LED_PINK_H4</title>
+    <rect class="led-body pink-led" x="-1.075" y="-0.575" width="2.150" height="1.150" rx="0.18"/>
+    <line x1="-0.795" y1="-0.575" x2="-0.795" y2="0.575" stroke="#20242b" stroke-width="0.12" opacity="0.55"/>
+  </g>
+  <text class="index-label" x="64.722" y="58.500">4</text>
+  <g id="led-05" transform="translate(58.500 64.722) rotate(150.000)">
+    <title>5: LED_PINK_H5</title>
+    <rect class="led-body pink-led" x="-1.075" y="-0.575" width="2.150" height="1.150" rx="0.18"/>
+    <line x1="-0.795" y1="-0.575" x2="-0.795" y2="0.575" stroke="#20242b" stroke-width="0.12" opacity="0.55"/>
+  </g>
+  <text class="index-label" x="58.500" y="64.722">5</text>
+  <g id="led-06" transform="translate(50.000 67.000) rotate(180.000)">
+    <title>6: LED_PINK_H6</title>
+    <rect class="led-body pink-led" x="-1.075" y="-0.575" width="2.150" height="1.150" rx="0.18"/>
+    <line x1="-0.795" y1="-0.575" x2="-0.795" y2="0.575" stroke="#20242b" stroke-width="0.12" opacity="0.55"/>
+  </g>
+  <text class="index-label" x="50.000" y="67.000">6</text>
+  <g id="led-07" transform="translate(41.500 64.722) rotate(210.000)">
+    <title>7: LED_PINK_H7</title>
+    <rect class="led-body pink-led" x="-1.075" y="-0.575" width="2.150" height="1.150" rx="0.18"/>
+    <line x1="-0.795" y1="-0.575" x2="-0.795" y2="0.575" stroke="#20242b" stroke-width="0.12" opacity="0.55"/>
+  </g>
+  <text class="index-label" x="41.500" y="64.722">7</text>
+  <g id="led-08" transform="translate(35.278 58.500) rotate(240.000)">
+    <title>8: LED_PINK_H8</title>
+    <rect class="led-body pink-led" x="-1.075" y="-0.575" width="2.150" height="1.150" rx="0.18"/>
+    <line x1="-0.795" y1="-0.575" x2="-0.795" y2="0.575" stroke="#20242b" stroke-width="0.12" opacity="0.55"/>
+  </g>
+  <text class="index-label" x="35.278" y="58.500">8</text>
+  <g id="led-09" transform="translate(33.000 50.000) rotate(270.000)">
+    <title>9: LED_PINK_H9</title>
+    <rect class="led-body pink-led" x="-1.075" y="-0.575" width="2.150" height="1.150" rx="0.18"/>
+    <line x1="-0.795" y1="-0.575" x2="-0.795" y2="0.575" stroke="#20242b" stroke-width="0.12" opacity="0.55"/>
+  </g>
+  <text class="index-label" x="33.000" y="50.000">9</text>
+  <g id="led-10" transform="translate(35.278 41.500) rotate(300.000)">
+    <title>10: LED_PINK_H10</title>
+    <rect class="led-body pink-led" x="-1.075" y="-0.575" width="2.150" height="1.150" rx="0.18"/>
+    <line x1="-0.795" y1="-0.575" x2="-0.795" y2="0.575" stroke="#20242b" stroke-width="0.12" opacity="0.55"/>
+  </g>
+  <text class="index-label" x="35.278" y="41.500">10</text>
+  <g id="led-11" transform="translate(41.500 35.278) rotate(330.000)">
+    <title>11: LED_PINK_H11</title>
+    <rect class="led-body pink-led" x="-1.075" y="-0.575" width="2.150" height="1.150" rx="0.18"/>
+    <line x1="-0.795" y1="-0.575" x2="-0.795" y2="0.575" stroke="#20242b" stroke-width="0.12" opacity="0.55"/>
+  </g>
+  <text class="index-label" x="41.500" y="35.278">11</text>
+  <g id="led-12" transform="translate(54.400 33.579) rotate(15.000)">
+    <title>12: LED_WHITE_H12_P15</title>
+    <rect class="led-body white-led" x="-1.075" y="-0.575" width="2.150" height="1.150" rx="0.18"/>
+    <line x1="-0.795" y1="-0.575" x2="-0.795" y2="0.575" stroke="#20242b" stroke-width="0.12" opacity="0.55"/>
+  </g>
+  <text class="index-label" x="54.400" y="33.579">12</text>
+  <g id="led-13" transform="translate(62.021 37.979) rotate(45.000)">
+    <title>13: LED_WHITE_H1_P15</title>
+    <rect class="led-body white-led" x="-1.075" y="-0.575" width="2.150" height="1.150" rx="0.18"/>
+    <line x1="-0.795" y1="-0.575" x2="-0.795" y2="0.575" stroke="#20242b" stroke-width="0.12" opacity="0.55"/>
+  </g>
+  <text class="index-label" x="62.021" y="37.979">13</text>
+  <g id="led-14" transform="translate(66.421 45.600) rotate(75.000)">
+    <title>14: LED_WHITE_H2_P15</title>
+    <rect class="led-body white-led" x="-1.075" y="-0.575" width="2.150" height="1.150" rx="0.18"/>
+    <line x1="-0.795" y1="-0.575" x2="-0.795" y2="0.575" stroke="#20242b" stroke-width="0.12" opacity="0.55"/>
+  </g>
+  <text class="index-label" x="66.421" y="45.600">14</text>
+  <g id="led-15" transform="translate(66.421 54.400) rotate(105.000)">
+    <title>15: LED_WHITE_H3_P15</title>
+    <rect class="led-body white-led" x="-1.075" y="-0.575" width="2.150" height="1.150" rx="0.18"/>
+    <line x1="-0.795" y1="-0.575" x2="-0.795" y2="0.575" stroke="#20242b" stroke-width="0.12" opacity="0.55"/>
+  </g>
+  <text class="index-label" x="66.421" y="54.400">15</text>
+  <g id="led-16" transform="translate(62.021 62.021) rotate(135.000)">
+    <title>16: LED_WHITE_H4_P15</title>
+    <rect class="led-body white-led" x="-1.075" y="-0.575" width="2.150" height="1.150" rx="0.18"/>
+    <line x1="-0.795" y1="-0.575" x2="-0.795" y2="0.575" stroke="#20242b" stroke-width="0.12" opacity="0.55"/>
+  </g>
+  <text class="index-label" x="62.021" y="62.021">16</text>
+  <g id="led-17" transform="translate(54.400 66.421) rotate(165.000)">
+    <title>17: LED_WHITE_H5_P15</title>
+    <rect class="led-body white-led" x="-1.075" y="-0.575" width="2.150" height="1.150" rx="0.18"/>
+    <line x1="-0.795" y1="-0.575" x2="-0.795" y2="0.575" stroke="#20242b" stroke-width="0.12" opacity="0.55"/>
+  </g>
+  <text class="index-label" x="54.400" y="66.421">17</text>
+  <g id="led-18" transform="translate(45.600 66.421) rotate(195.000)">
+    <title>18: LED_WHITE_H6_P15</title>
+    <rect class="led-body white-led" x="-1.075" y="-0.575" width="2.150" height="1.150" rx="0.18"/>
+    <line x1="-0.795" y1="-0.575" x2="-0.795" y2="0.575" stroke="#20242b" stroke-width="0.12" opacity="0.55"/>
+  </g>
+  <text class="index-label" x="45.600" y="66.421">18</text>
+  <g id="led-19" transform="translate(37.979 62.021) rotate(225.000)">
+    <title>19: LED_WHITE_H7_P15</title>
+    <rect class="led-body white-led" x="-1.075" y="-0.575" width="2.150" height="1.150" rx="0.18"/>
+    <line x1="-0.795" y1="-0.575" x2="-0.795" y2="0.575" stroke="#20242b" stroke-width="0.12" opacity="0.55"/>
+  </g>
+  <text class="index-label" x="37.979" y="62.021">19</text>
+  <g id="led-20" transform="translate(33.579 54.400) rotate(255.000)">
+    <title>20: LED_WHITE_H8_P15</title>
+    <rect class="led-body white-led" x="-1.075" y="-0.575" width="2.150" height="1.150" rx="0.18"/>
+    <line x1="-0.795" y1="-0.575" x2="-0.795" y2="0.575" stroke="#20242b" stroke-width="0.12" opacity="0.55"/>
+  </g>
+  <text class="index-label" x="33.579" y="54.400">20</text>
+  <g id="led-21" transform="translate(33.579 45.600) rotate(285.000)">
+    <title>21: LED_WHITE_H9_P15</title>
+    <rect class="led-body white-led" x="-1.075" y="-0.575" width="2.150" height="1.150" rx="0.18"/>
+    <line x1="-0.795" y1="-0.575" x2="-0.795" y2="0.575" stroke="#20242b" stroke-width="0.12" opacity="0.55"/>
+  </g>
+  <text class="index-label" x="33.579" y="45.600">21</text>
+  <g id="led-22" transform="translate(37.979 37.979) rotate(315.000)">
+    <title>22: LED_WHITE_H10_P15</title>
+    <rect class="led-body white-led" x="-1.075" y="-0.575" width="2.150" height="1.150" rx="0.18"/>
+    <line x1="-0.795" y1="-0.575" x2="-0.795" y2="0.575" stroke="#20242b" stroke-width="0.12" opacity="0.55"/>
+  </g>
+  <text class="index-label" x="37.979" y="37.979">22</text>
+  <g id="led-23" transform="translate(45.600 33.579) rotate(345.000)">
+    <title>23: LED_WHITE_H11_P15</title>
+    <rect class="led-body white-led" x="-1.075" y="-0.575" width="2.150" height="1.150" rx="0.18"/>
+    <line x1="-0.795" y1="-0.575" x2="-0.795" y2="0.575" stroke="#20242b" stroke-width="0.12" opacity="0.55"/>
+  </g>
+  <text class="index-label" x="45.600" y="33.579">23</text>
+</svg>
