@@ -1681,17 +1681,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "r1:\n* initial release\nrev 1.1:\n* add pads for fixture programming and debugging\n* add pullup for reset (accidentally ommited before)\n* update red led resistor values\n* aestethics cleanup\nNotes:\n* LED designators have been resetted accidentally, but in next revisions they will be replaced\nwith RGB most likely.)"
-		(exclude_from_sim no)
-		(at 17.272 70.104 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "86944e26-b7e2-48a3-bd46-c5ee4171e09f")
-	)
 	(junction
 		(at 124.46 24.13)
 		(diameter 0)
@@ -1705,22 +1694,14 @@
 		(uuid "5c461f69-4a30-4203-8dbc-7ff409570f4c")
 	)
 	(junction
-		(at 113.03 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c2440606-0424-45ad-bed3-4b234dcbf9b6")
-	)
-	(junction
-		(at 73.66 31.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "eecdb7e7-f119-454c-8688-f401c2c42710")
-	)
-	(junction
 		(at 30.48 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f5a5fe67-3314-4bdc-a2b1-e42a0d55cc81")
+	)
+	(no_connect
+		(at 74.93 29.21)
+		(uuid "829d677b-475d-4123-bf7f-fbc0debf8c09")
 	)
 	(no_connect
 		(at 68.58 26.67)
@@ -1858,16 +1839,6 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 31.75) (xy 73.66 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c1b481a-d432-4297-977a-32fc2cc7c791")
-	)
-	(wire
-		(pts
 			(xy 114.3 50.8) (xy 113.03 50.8)
 		)
 		(stroke
@@ -1884,7 +1855,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "4b81ecb5-0ade-4c72-aa71-504a9b24c41f")
+		(uuid "59fa241b-87a8-4707-87fb-e10ff1a9e891")
 	)
 	(wire
 		(pts
@@ -1905,6 +1876,16 @@
 			(type default)
 		)
 		(uuid "71ab8af5-cc95-4efd-be1c-4f6cbeaf14c3")
+	)
+	(wire
+		(pts
+			(xy 116.84 26.67) (xy 110.49 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77785aac-005d-4b06-aabd-2c81184201e4")
 	)
 	(wire
 		(pts
@@ -1935,6 +1916,16 @@
 			(type default)
 		)
 		(uuid "7b669b95-d464-4e7f-83e1-21752c2a7966")
+	)
+	(wire
+		(pts
+			(xy 110.49 41.91) (xy 121.92 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ea9c6c3-ef95-481a-8efc-699bda5ccebc")
 	)
 	(wire
 		(pts
@@ -2008,6 +1999,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 39.37) (xy 121.92 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a755de41-3bde-461c-8fc6-ef00b8b30c61")
+	)
+	(wire
+		(pts
 			(xy 168.91 27.94) (xy 167.64 27.94)
 		)
 		(stroke
@@ -2035,16 +2036,6 @@
 			(type default)
 		)
 		(uuid "ac1f2d47-faf8-4c13-ab53-04da79774d62")
-	)
-	(wire
-		(pts
-			(xy 113.03 34.29) (xy 124.46 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3e94197-8928-477c-ba6c-33559116b91d")
 	)
 	(wire
 		(pts
@@ -2078,7 +2069,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 26.67) (xy 114.3 26.67)
+			(xy 110.49 36.83) (xy 118.11 36.83)
 		)
 		(stroke
 			(width 0)
@@ -2148,16 +2139,6 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 41.91) (xy 125.73 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1681b6a-4dbe-4fb1-a1bd-6615a7c45106")
-	)
-	(wire
-		(pts
 			(xy 168.91 26.67) (xy 168.91 27.94)
 		)
 		(stroke
@@ -2165,16 +2146,6 @@
 			(type default)
 		)
 		(uuid "d6858e33-c4f4-45ae-93ed-8c7d07fb7110")
-	)
-	(wire
-		(pts
-			(xy 60.96 29.21) (xy 74.93 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db740eb2-37f8-49cf-800e-b82acc0b985f")
 	)
 	(wire
 		(pts
@@ -2256,23 +2227,13 @@
 		)
 		(uuid "0b9cfab1-b722-4b70-bcc6-5818126b62e7")
 	)
-	(label "LED4"
-		(at 125.73 41.91 0)
+	(label "WLED2"
+		(at 118.11 36.83 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
-		)
-		(uuid "0ed8999c-2c7e-4a8b-b18e-c9c62e5abe95")
-	)
-	(label "WLED2"
-		(at 60.96 29.21 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
 		)
 		(uuid "0f840360-6804-4444-920f-de201a7b060d")
 	)
@@ -2337,7 +2298,7 @@
 		(uuid "4c08f9ec-65ec-4590-8353-33dfe302cf0c")
 	)
 	(label "WLED1"
-		(at 114.3 26.67 0)
+		(at 121.92 39.37 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2447,12 +2408,12 @@
 		(uuid "91220379-b162-47bb-9c70-eff4013fd0cf")
 	)
 	(label "WLED3"
-		(at 60.96 31.75 180)
+		(at 116.84 26.67 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "93be4c80-a52f-4020-ad38-850879490762")
 	)
@@ -2527,7 +2488,7 @@
 		(uuid "cc9d343f-a30b-441e-818e-a52a0966f33f")
 	)
 	(label "WLED0"
-		(at 124.46 34.29 0)
+		(at 121.92 41.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)

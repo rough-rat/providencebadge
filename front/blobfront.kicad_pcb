@@ -3882,6 +3882,87 @@
 		(layer "F.Mask")
 		(uuid "3a7537ba-f93e-4bc7-a0bd-67b31464c2c1")
 	)
+	(gr_line
+		(start 121 101)
+		(end 161 101)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "5d8dff33-00d2-499b-9cd3-87fcfc2ed6b1")
+	)
+	(gr_line
+		(start 122 82)
+		(end 159.5 119.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "7cf97ad0-ec4f-443c-8413-510e66542e8f")
+	)
+	(gr_line
+		(start 131 111)
+		(end 131 91)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "735c537b-6134-409d-aec4-7de6f85cea07")
+	)
+	(gr_circle
+		(center 141 101)
+		(end 124.5 101)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "B.SilkS")
+		(uuid "1825cf76-69bb-43db-a372-d730bbb3b498")
+	)
+	(gr_line
+		(start 151 91)
+		(end 131 91)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "69fb7193-a2ef-4fe4-a644-fdaadca352ec")
+	)
+	(gr_line
+		(start 151 91)
+		(end 151 111)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "d0654233-1102-4bb4-a3bd-ddecdf8f07f9")
+	)
+	(gr_line
+		(start 151 111)
+		(end 131 111)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "805885fa-bb8d-4e21-8dc5-10dc8c026af6")
+	)
+	(gr_line
+		(start 160 82)
+		(end 122 120)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "5ddc2760-a58e-41c2-8883-c5f7ae17d65a")
+	)
 	(gr_circle
 		(center 125 85)
 		(end 126 85)
@@ -4061,6 +4142,30 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "325d4ec1-6631-4eed-8142-1ea3476cac63")
+	)
+	(gr_text "(C) 04.2026 roughrat.com"
+		(at 152 119.6 0)
+		(layer "B.SilkS")
+		(uuid "2194c6da-9d48-46dc-a9c1-c3dc73256836")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "provedencebadge_front rev 0.1"
+		(at 154 83.379928 0)
+		(layer "B.SilkS")
+		(uuid "d7deab37-38f8-4f51-a037-4e89f0b41cf2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
 	)
 	(zone
 		(layer "F.Cu")

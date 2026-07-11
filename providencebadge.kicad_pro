@@ -62,15 +62,39 @@
       ],
       "drc_exclusions": [
         [
-          "courtyards_overlap|107699999|47500001|90fa2403-1cce-456d-893d-f44a6bd40749|aeb48e40-ad16-4f2e-8b65-8510bd2c96d7",
+          "copper_edge_clearance|31540460|42574933|0aa5d9d4-622a-435d-9b62-dbedffb56892|869f6409-35d1-48e6-9b65-68d0c5a82a5a",
           ""
         ],
         [
-          "lib_footprint_mismatch|105700000|42000000|90fa2403-1cce-456d-893d-f44a6bd40749|00000000-0000-0000-0000-000000000000",
+          "courtyards_overlap|64695000|47429035|67ba7a06-9a35-43f9-bbe8-cac16020639b|aeb48e40-ad16-4f2e-8b65-8510bd2c96d7",
           ""
         ],
         [
-          "lib_footprint_mismatch|138500000|42000000|4e6f7623-097a-4e49-b262-4e2897f67b43|00000000-0000-0000-0000-000000000000",
+          "silk_edge_clearance|45000000|59500000|aca4fb5d-6dce-4f45-bfc5-8202dfe1952b|1548a826-af22-4c44-b9b5-a7bfef63bfe6",
+          ""
+        ],
+        [
+          "text_height|60500000|62600000|3e7d3d40-b0c5-48d7-a584-c9bc3adcd064|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "track_dangling|32500000|53600000|29acc18c-d9c3-4d24-bb6d-9f963e0d9915|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "track_dangling|36700000|61900000|e55a95ad-52ac-45d2-989c-834a843dc35c|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "track_dangling|38100000|39300000|0e368498-7c6d-478e-8bd1-281ebf847f6f|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "track_dangling|39700000|49600000|a0a1f8aa-a64b-4e03-8bd3-e1be90016a94|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "track_dangling|44700000|67000000|48a8fbbe-d963-4786-bf61-1583b5949a51|00000000-0000-0000-0000-000000000000",
           ""
         ]
       ],
@@ -105,7 +129,7 @@
         "items_not_allowed": "error",
         "length_out_of_range": "error",
         "lib_footprint_issues": "warning",
-        "lib_footprint_mismatch": "warning",
+        "lib_footprint_mismatch": "ignore",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "mirrored_text_on_front_layer": "warning",
@@ -532,7 +556,6 @@
         "bus_width": 12,
         "clearance": 0.15,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -551,7 +574,6 @@
         "bus_width": 12,
         "clearance": 0.15,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -570,7 +592,6 @@
         "bus_width": 12,
         "clearance": 0.15,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -589,7 +610,6 @@
         "bus_width": 12,
         "clearance": 0.15,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -608,7 +628,6 @@
         "bus_width": 12,
         "clearance": 0.15,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -627,7 +646,6 @@
         "bus_width": 12,
         "clearance": 0.15,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -646,7 +664,6 @@
         "bus_width": 12,
         "clearance": 0.15,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -665,7 +682,6 @@
         "bus_width": 12,
         "clearance": 0.15,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
