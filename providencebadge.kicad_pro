@@ -50,7 +50,23 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "border_display_style": 2,
+          "border_hatch_pitch": 0.5,
+          "corner_radius": 0.0,
+          "corner_smoothing": 0,
+          "fill_mode": 0,
+          "hatch_gap": 1.5,
+          "hatch_orientation": 0.0,
+          "hatch_smoothing_level": 0,
+          "hatch_smoothing_value": 0.1,
+          "hatch_thickness": 1.0,
+          "min_clearance": 0.5,
+          "min_island_area": 10.0,
+          "min_thickness": 0.25,
+          "pad_connection": 1,
+          "remove_islands": 0,
+          "thermal_relief_gap": 0.5,
+          "thermal_relief_spoke_width": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -67,10 +83,6 @@
         ],
         [
           "courtyards_overlap|64695000|47429035|67ba7a06-9a35-43f9-bbe8-cac16020639b|aeb48e40-ad16-4f2e-8b65-8510bd2c96d7",
-          ""
-        ],
-        [
-          "silk_edge_clearance|45000000|59500000|aca4fb5d-6dce-4f45-bfc5-8202dfe1952b|1548a826-af22-4c44-b9b5-a7bfef63bfe6",
           ""
         ],
         [
@@ -757,7 +769,7 @@
       "method": 0,
       "sort_order": 0
     },
-    "bom_export_filename": "",
+    "bom_export_filename": "/tmp/8papiez.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -830,6 +842,12 @@
           "group_by": false,
           "label": "Description",
           "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LedMX-name",
+          "name": "LedMX-name",
           "show": false
         }
       ],

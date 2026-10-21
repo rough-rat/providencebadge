@@ -2,6 +2,7 @@
 name = "blobbadge-fw"
 version = "0.1.0"
 edition = "2021"
+license = "MIT"
 
 [dependencies]
 panic-halt = "1.0.0"

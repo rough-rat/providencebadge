@@ -1009,7 +1009,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Critbit_lib:SideLed_L1.7-W1.1"
 			(at 78.74 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -1099,7 +1099,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Critbit_lib:SideLed_L1.7-W1.1"
 			(at 39.37 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -1189,7 +1189,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Critbit_lib:SideLed_L1.7-W1.1"
 			(at 275.59 0 0)
 			(hide yes)
 			(show_name no)
@@ -1279,7 +1279,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Critbit_lib:SideLed_L1.7-W1.1"
 			(at 78.74 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -1369,7 +1369,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Critbit_lib:SideLed_L1.7-W1.1"
 			(at 196.85 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -1459,7 +1459,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Critbit_lib:SideLed_L1.7-W1.1"
 			(at 39.37 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -1549,7 +1549,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Critbit_lib:SideLed_L1.7-W1.1"
 			(at 0 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -1639,7 +1639,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Critbit_lib:SideLed_L1.7-W1.1"
 			(at 196.85 13.97 0)
 			(hide yes)
 			(show_name no)
@@ -1729,7 +1729,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Critbit_lib:SideLed_L1.7-W1.1"
 			(at 236.22 0 0)
 			(hide yes)
 			(show_name no)
@@ -1819,7 +1819,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Critbit_lib:SideLed_L1.7-W1.1"
 			(at 0 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -1909,7 +1909,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Critbit_lib:SideLed_L1.7-W1.1"
 			(at 236.22 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -1999,7 +1999,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Critbit_lib:SideLed_L1.7-W1.1"
 			(at 196.85 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -2089,7 +2089,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Critbit_lib:SideLed_L1.7-W1.1"
 			(at 0 13.97 0)
 			(hide yes)
 			(show_name no)
@@ -2179,7 +2179,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Critbit_lib:SideLed_L1.7-W1.1"
 			(at 275.59 13.97 0)
 			(hide yes)
 			(show_name no)
@@ -2269,7 +2269,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Critbit_lib:SideLed_L1.7-W1.1"
 			(at 275.59 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -2359,7 +2359,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Critbit_lib:SideLed_L1.7-W1.1"
 			(at 196.85 0 0)
 			(hide yes)
 			(show_name no)
@@ -2449,7 +2449,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Critbit_lib:SideLed_L1.7-W1.1"
 			(at 78.74 13.97 0)
 			(hide yes)
 			(show_name no)
@@ -2539,7 +2539,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Critbit_lib:SideLed_L1.7-W1.1"
 			(at 39.37 13.97 0)
 			(hide yes)
 			(show_name no)
@@ -2629,7 +2629,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Critbit_lib:SideLed_L1.7-W1.1"
 			(at 39.37 0 0)
 			(hide yes)
 			(show_name no)
@@ -2719,7 +2719,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Critbit_lib:SideLed_L1.7-W1.1"
 			(at 275.59 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -2809,7 +2809,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Critbit_lib:SideLed_L1.7-W1.1"
 			(at 236.22 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -2899,7 +2899,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Critbit_lib:SideLed_L1.7-W1.1"
 			(at 78.74 0 0)
 			(hide yes)
 			(show_name no)
@@ -2989,7 +2989,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Critbit_lib:SideLed_L1.7-W1.1"
 			(at 236.22 13.97 0)
 			(hide yes)
 			(show_name no)
@@ -3079,7 +3079,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Critbit_lib:SideLed_L1.7-W1.1"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
