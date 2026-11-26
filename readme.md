@@ -1,6 +1,16 @@
 # Providencebadge
 
-![photo of the complete badge](badge_photo.jpg)
+![photo of the complete badge](img/badge_photo.jpg)
+
+## Repository layout
+
+| Path | Contents |
+|---|---|
+| [`hardware/board/`](hardware/board/) | Main badge KiCad project (schematics, PCB) |
+| [`hardware/front/`](hardware/front/) | Front artwork board KiCad project |
+| [`firmware/`](firmware/) | Badge firmware (Rust, py32-badgekit) |
+| [`fw-legacy/`](fw-legacy/) | Original standalone firmware |
+| [`img/`](img/) | Photos and diagrams |
 
 
 ## License
@@ -40,7 +50,7 @@ artwork removed or replaced.
 
 Copyright © 2026 CritBit.
 
-The firmware in [`fw/`](fw/) is licensed under the [MIT License](LICENSES/MIT.txt).
+The firmware in [`firmware/`](firmware/) and [`fw-legacy/`](fw-legacy/) is licensed under the [MIT License](LICENSES/MIT.txt).
 
 ### Fan work disclaimer
 
